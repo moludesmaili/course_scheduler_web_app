@@ -1,5 +1,5 @@
 var takenCoursesInput;
-var url = "http://184.73.142.80"
+var url = "http://10.247.52.148:8081"
 //var url = "http://localhost:8000"
 
 function showContent() {
@@ -110,7 +110,7 @@ function send_data() {
   const nextSemester = $("#semester").val(); // Get the selected semester
 
   if (program !== "") {
-    fetch(url + "/api/recommend/create", {
+    fetch(url + "/api/recommend/create/", {
       method: "POST",
       body: JSON.stringify({
         program: program,

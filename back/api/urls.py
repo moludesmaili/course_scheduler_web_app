@@ -5,7 +5,7 @@ from django.conf.urls.static import static
 
 
 urlpatterns = [
-    path('recommend/create',create_recommendation,name="create_recommendation"),
+    path('recommend/create/',create_recommendation,name="create_recommendation"),
     path('recommend/',get_all_recommendation,name="get_all_recommendation")
 ]
 
