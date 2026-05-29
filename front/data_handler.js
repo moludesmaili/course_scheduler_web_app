@@ -1,6 +1,6 @@
 var takenCoursesInput;
 var url = "http://10.247.52.148:8081"
-//var url = "http://localhost:8000"
+// var url = "http://localhost:8000"
 
 function showContent() {
   document.getElementById("protected-content").style.display = "block";
@@ -462,6 +462,18 @@ function printTable2(mode) {
 // }
 
 const courseLabels = {
+"CAI1000": "CAI 1000 AI Fundamentals",
+"CAI2001": "CAI 2001 AI Applications",
+"CAI4105": "CAI 4105 Introduction to Machine Learning",
+"CAI4203": "CAI 4203 Deep Learning",
+"CAI4024": "CAI 4024 Ethical Issues in AI",
+"CAI4624": "CAI 4624 AI System Architecture and Infrastructure",
+"CAI4841": "CAI 4841 Computer Vision",
+"CAP4641": "CAP 4641 Natural Language Processing",
+"AIElec5": "AI Elective",
+"AIElec6": "AI Elective",
+"GenEdElective1": "USF Gen Ed Elective",
+"CIS4253": "CIS 4253 IT Ethics",
 "CAI4002": "CAI 4002 Intro to Artificial Intelligence",
 "CAI4100": "CAI 4100 Intro to Machine Learning",
 "CDA3103": "CDA3 103 Computer Organization",
@@ -520,6 +532,7 @@ const courseLabels = {
 "CyberElec7": "Cybersecurity Elective",
 "ECO2013": "ECO 2013 Economic Principles (Macroeconomics)",
 "EGN2440": "EGN 2440 Probability and Statistics with calculus",
+"EGN2440_AI": "EGN 2440 or STA 2023",
 "EGN3000/EGN3000L": "EGN 3000 Foundations of Engineering/ Lab",
 "EGN2615": "EGN 2615 Economics with SG Implications",
 "EGN3615": "EGN 3615 Eng Econ with SG Implications",
@@ -2080,5 +2093,740 @@ var course_json = {
         "credits": 12
       }
     ]
+  },
+  "13": {
+      "semesters": [
+        {
+          "name": "1",
+          "id": "1",
+          "term": "Fall",
+          "courses": [
+            "CIS1930",
+            "COP2510",
+            "ENC1101",
+            "MAC2311",
+            "NatSciElec1"
+          ],
+          "credits": 14
+        },
+        {
+          "name": "2",
+          "id": "2",
+          "term": "Spring",
+          "courses": [
+            "COP3514",
+            "ENC1102",
+            "MAC2312",
+            "PHY2048/2048L"
+          ],
+          "credits": 14
+        },
+        {
+          "name": "3",
+          "id": "3",
+          "term": "Fall",
+          "courses": [
+            "COT3100",
+            "CDA3103",
+            "PHY2049/2049L",
+            "GenEdHumanities1"
+          ],
+          "credits": 13
+        },
+        {
+          "name": "4",
+          "id": "4",
+          "term": "Spring",
+          "courses": [
+            "COP4530",
+            "CDA3201/3201L",
+            "GeneralElec1",
+            "GeneralElec2"
+          ],
+          "credits": 13
+        },
+        {
+          "name": "Summer1",
+          "id": "4.5",
+          "term": "Summer",
+          "courses": [
+            "EGN2440",
+            "GenEdSocialScience1",
+            "NatSciElec2"
+          ],
+          "credits": 9
+        },
+        {
+          "name": "5",
+          "id": "5",
+          "term": "Fall",
+          "courses": [
+            "CDA4205/4205L",
+            "EGN4450",
+            "GenEdHumanities2",
+            "GeneralElec3",
+            "SoftwareElelc1"
+          ],
+          "credits": 15
+        },
+        {
+          "name": "6",
+          "id": "6",
+          "term": "Spring",
+          "courses": [
+            "COT4400",
+            "GenEdSocialScience2",
+            "SoftwareElelc2",
+            "SoftwareElelc3",
+            "Techelec1"
+          ],
+          "credits": 15
+        },
+        {
+          "name": "7",
+          "id": "7",
+          "term": "Fall",
+          "courses": [
+            "CNT4419",
+            "COP4600",
+            "GeneralElec4",
+            "Techelec2",
+            "TheoryElelc"
+          ],
+          "credits": 15
+        },
+        {
+          "name": "8",
+          "id": "8",
+          "term": "Spring",
+          "courses": [
+            "CEN4020",
+            "CIS4250",
+            "GeneralElec5",
+            "Techelec3"
+          ],
+          "credits": 12
+        },
+        {
+          "name": "9",
+          "id": "9",
+          "term": "Fall",
+          "courses": [],
+          "credits": 0
+        }
+      ]
+    },
+  "14": {
+    "semesters": [
+      {
+        "name": "1",
+        "id": "1",
+        "term": "Fall",
+        "courses": [
+          "CIS1930",
+          "MAC2311",
+          "CHM2045/2045L",
+          "ENC1101",
+          "GeneralElec1"
+        ],
+        "credits": 14
+      },
+      {
+        "name": "2",
+        "id": "2",
+        "term": "Spring",
+        "courses": [
+          "MAC2312",
+          "COT3100",
+          "COP2510",
+          "PHY2048/2048L"
+        ],
+        "credits": 14
+      },
+      {
+        "name": "3",
+        "id": "3",
+        "term": "Fall",
+        "courses": [
+          "MAC2313",
+          "COP3514",
+          "CDA3103",
+          "PHY2049/2049L"
+        ],
+        "credits": 14
+      },
+      {
+        "name": "4",
+        "id": "4",
+        "term": "Spring",
+        "courses": [
+          "EGN3433",
+          "COP4530",
+          "CDA3201/3201L",
+          "ENC1102",
+          "GenEdHumanities1"
+        ],
+        "credits": 16
+      },
+      {
+        "name": "Summer1",
+        "id": "4.5",
+        "term": "Summer",
+        "courses": [
+          "EGN2440",
+          "GenEdSocialScience1",
+          "NatSciElec2"
+        ],
+        "credits": 9
+      },
+      {
+        "name": "5",
+        "id": "5",
+        "term": "Fall",
+        "courses": [
+          "CDA4205/4205L",
+          "CDA4021",
+          "EGN4450",
+          "EGN2615",
+          "GeneralElec2"
+        ],
+        "credits": 15
+      },
+      {
+        "name": "6",
+        "id": "6",
+        "term": "Spring",
+        "courses": [
+          "COT4400",
+          "CDA4203/L",
+          "HardwareElec1",
+          "GeneralElec3"
+        ],
+        "credits": 13
+      },
+      {
+        "name": "7",
+        "id": "7",
+        "term": "Fall",
+        "courses": [
+          "COP4600",
+          "CDA4213/L",
+          "GenEdHumanities2",
+          "Techelec1"
+        ],
+        "credits": 13
+      },
+      {
+        "name": "8",
+        "id": "8",
+        "term": "Spring",
+        "courses": [
+          "CIS4910",
+          "CIS4250",
+          "HardwareElec2",
+          "Techelec2"
+        ],
+        "credits": 12
+      },
+      {
+        "name": "9",
+        "id": "9",
+        "term": "Fall",
+        "courses": [],
+        "credits": 0
+      }
+    ]
+  },
+  "15": 
+  {
+    "semesters": [
+      {
+        "name": "1",
+        "id": "1",
+        "term": "Fall",
+        "courses": [
+          "CIS1930",
+          "COP2510",
+          "MAC2311",
+          "ENC1101",
+          "CAI1000"
+        ],
+        "credits": 14
+      },
+      {
+        "name": "2",
+        "id": "2",
+        "term": "Spring",
+        "courses": [
+          "COP3514",
+          "MAC2312",
+          "PHY2048/2048L",
+          "ENC1102"
+        ],
+        "credits": 14
+      },
+      {
+        "name": "3",
+        "id": "3",
+        "term": "Fall",
+        "courses": [
+          "COT3100",
+          "CDA3103",
+          "NatSciElec3",
+          "CAI2001"
+        ],
+        "credits": 12
+      },
+      {
+        "name": "4",
+        "id": "4",
+        "term": "Spring",
+        "courses": [
+          "COP4530",
+          "CAI4002",
+          "EGN4450",
+          "GeneralElec1",
+          "GenEdHumanities1"
+        ],
+        "credits": 14
+      },
+      {
+        "name": "Summer1",
+        "id": "4.5",
+        "term": "Summer",
+        "courses": [
+          "EGN2440",
+          "GenEdElective1",
+          "GeneralElec2"
+        ],
+        "credits": 9
+      },
+      {
+        "name": "5",
+        "id": "5",
+        "term": "Fall",
+        "courses": [
+          "CAI4105",
+          "PSY2012",
+          "GenEdHumanities2",
+          "AIElec1"
+        ],
+        "credits": 12
+      },
+      {
+        "name": "6",
+        "id": "6",
+        "term": "Spring",
+        "courses": [
+          "CAI4203",
+          "COT4400",
+          "GenEdSocialScience2",
+          "AIElec2",
+          "GeneralElec3"
+        ],
+        "credits": 15
+      },
+      {
+        "name": "7",
+        "id": "7",
+        "term": "Fall",
+        "courses": [
+          "CAP4641",
+          "CAI4841",
+          "AIElec3",
+          "AIElec4",
+          "GeneralElec4"
+        ],
+        "credits": 15
+      },
+      {
+        "name": "8",
+        "id": "8",
+        "term": "Spring",
+        "courses": [
+          "CAI4024",
+          "CAI4624",
+          "AIElec5",
+          "AIElec6",
+          "GeneralElec5"
+        ],
+        "credits": 15
+      },
+      {
+        "name": "9",
+        "id": "9",
+        "term": "Fall",
+        "courses": [],
+        "credits": 0
+      }
+    ]
+  },
+  "16": {
+      "semesters": [
+          {
+              "name": "1",
+              "id": "1",
+              "term": "Fall",
+              "courses": [
+                  "CIS1930",
+                  "COP2510",
+                  "CGS1540",
+                  "MAC1147",
+                  "ENC1101"
+              ],
+              "credits": 14
+          },
+          {
+              "name": "2",
+              "id": "2",
+              "term": "Spring",
+              "courses": [
+                  "COP2513",
+                  "MAD2104",
+                  "ENC1102",
+                  "PHY2020",
+                  "GenEdHumanities1"
+              ],
+              "credits": 15
+          },
+          {
+              "name": "3",
+              "id": "3",
+              "term": "Fall",
+              "courses": [
+                  "CIS3213",
+                  "STA2023",
+                  "ECO2013",
+                  "GeneralElec2"
+              ],
+              "credits": 12
+          },
+          {
+              "name": "4",
+              "id": "4",
+              "term": "Spring",
+              "courses": [
+                  "COP3515",
+                  "PSY2012",
+                  "NatSciElec3",
+                  "GeneralElec1"
+              ],
+              "credits": 12
+          },
+          {
+              "name": "Summer1",
+              "id": "4.5",
+              "term": "Summer",
+              "courses": [
+                  "GenEdSocialScience1",
+                  "GenEdHumanities2",
+                  "GeneralElec3"
+              ],
+              "credits": 9
+          },
+          {
+              "name": "5",
+              "id": "5",
+              "term": "Fall",
+              "courses": [
+                  "CIS4622",
+                  "COP4538",
+                  "ISM4323",
+                  "CyberElec1",
+                  "GenEdSocialScience2"
+              ],
+              "credits": 15
+          },
+          {
+              "name": "6",
+              "id": "6",
+              "term": "Spring",
+              "courses": [
+                  "CIS4219",
+                  "CNT4104/L",
+                  "CyberElec2",
+                  "CyberElec3",
+                  "GeneralElec4"
+              ],
+              "credits": 16
+          },
+          {
+              "name": "7",
+              "id": "7",
+              "term": "Fall",
+              "courses": [
+                  "CIS4200",
+                  "CNT4403",
+                  "CyberElec4",
+                  "CyberElec5",
+                  "GeneralElec5"
+              ],
+              "credits": 15
+          },
+          {
+              "name": "8",
+              "id": "8",
+              "term": "Spring",
+              "courses": [
+                  "LIS4414",
+                  "COP4703",
+                  "CyberElec6",
+                  "CyberElec7"
+              ],
+              "credits": 12
+          },
+          {
+              "name": "9",
+              "id": "9",
+              "term": "Fall",
+              "courses": [],
+              "credits": 0
+          }
+      ]
+  },
+  "17": {
+      "semesters": [
+        {
+          "name": "1",
+          "id": "1",
+          "term": "Fall",
+          "courses": [
+            "CIS1930",
+            "CGS1540",
+            "COP2510",
+            "ENC1101",
+            "MAC1147"
+          ],
+          "credits": 14
+        },
+        {
+          "name": "2",
+          "id": "2",
+          "term": "Spring",
+          "courses": [
+            "MAD2104",
+            "COP2513",
+            "ENC1102",
+            "PHY2020",
+            "GenEdHumanities1"
+          ],
+          "credits": 15
+        },
+        {
+          "name": "3",
+          "id": "3",
+          "term": "Fall",
+          "courses": [
+            "CIS3213",
+            "ECO2013",
+            "STA2023",
+            "GeneralElec1"
+          ],
+          "credits": 12
+        },
+        {
+          "name": "4",
+          "id": "4",
+          "term": "Spring",
+          "courses": [
+            "CIS3433",
+            "COP3515",
+            "LDR2010",
+            "PSY2012"
+          ],
+          "credits": 12
+        },
+        {
+          "name": "Summer1",
+          "id": "4.5",
+          "term": "Summer",
+          "courses": [
+            "GenEdSocialScience1",
+            "GeneralElec2",
+            "GeneralElec3"
+          ],
+          "credits": 9
+        },
+        {
+          "name": "5",
+          "id": "5",
+          "term": "Fall",
+          "courses": [
+            "CGS3853",
+            "COP4538",
+            "GenEdHumanities2",
+            "NatSciElec3",
+            "GeneralElec4"
+          ],
+          "credits": 15
+        },
+        {
+          "name": "6",
+          "id": "6",
+          "term": "Spring",
+          "courses": [
+            "CNT4104/L",
+            "ITElec1",
+            "ITElec2",
+            "ITElec3",
+            "GeneralElec5"
+          ],
+          "credits": 16
+        },
+        {
+          "name": "7",
+          "id": "7",
+          "term": "Fall",
+          "courses": [
+            "CIS4083",
+            "CNT4603",
+            "ITElec4",
+            "ITElec5",
+            "GeneralElec6"
+          ],
+          "credits": 15
+        },
+        {
+          "name": "8",
+          "id": "8",
+          "term": "Spring",
+          "courses": [
+            "LIS4414",
+            "COP4703",
+            "ITElec6",
+            "ITElec7"
+          ],
+          "credits": 12
+        },
+        {
+          "name": "9",
+          "id": "9",
+          "term": "Fall",
+          "courses": [],
+          "credits": 0
+        }
+      ]
+    },
+  "18": {
+      "semesters": [
+          {
+              "name": "1",
+              "id": "1",
+              "term": "Fall",
+              "courses": [
+                  "CIS1930",
+                  "COP2510",
+                  "MAC2311",
+                  "ENC1101",
+                  "NatSciElec1"
+              ],
+              "credits": 14
+          },
+          {
+              "name": "2",
+              "id": "2",
+              "term": "Spring",
+              "courses": [
+                  "COP3514",
+                  "MAC2312",
+                  "ENC1102",
+                  "PHY2048/2048L"
+              ],
+              "credits": 14
+          },
+          {
+              "name": "3",
+              "id": "3",
+              "term": "Fall",
+              "courses": [
+                  "CDA3103",
+                  "COT3100",
+                  "PHY2049/2049L",
+                  "GenEdHumanities1"
+              ],
+              "credits": 13
+          },
+          {
+              "name": "4",
+              "id": "4",
+              "term": "Spring",
+              "courses": [
+                  "COP4530",
+                  "CDA3201/3201L",
+                  "CDA4021",
+                  "GeneralElec1"
+              ],
+              "credits": 12
+          },
+          {
+              "name": "Summer1",
+              "id": "4.5",
+              "term": "Summer",
+              "courses": [
+                  "EGN2440",
+                  "GenEdSocialScience1",
+                  "NatSciElec2"
+              ],
+              "credits": 9
+          },
+          {
+              "name": "5",
+              "id": "5",
+              "term": "Fall",
+              "courses": [
+                  "CDA4205/4205L",
+                  "EGN4450",
+                  "EGN2615",
+                  "Techelec1",
+                  "TheoryElelc"
+              ],
+              "credits": 15
+          },
+          {
+              "name": "6",
+              "id": "6",
+              "term": "Spring",
+              "courses": [
+                  "COT4400",
+                  "CDA4203/L",
+                  "GenEdHumanities2",
+                  "HardwareElec1",
+                  "Techelec2"
+              ],
+              "credits": 16
+          },
+          {
+              "name": "7",
+              "id": "7",
+              "term": "Fall",
+              "courses": [
+                  "COP4600",
+                  "CNT4419",
+                  "CDA4213/L",
+                  "HardwareElec2",
+                  "GeneralElec2"
+              ],
+              "credits": 15
+          },
+          {
+              "name": "8",
+              "id": "8",
+              "term": "Spring",
+              "courses": [
+                  "CIS4910",
+                  "CEN4020",
+                  "CIS4250",
+                  "GenEdSocialScience2"
+              ],
+              "credits": 12
+          },
+          {
+              "name": "9",
+              "id": "9",
+              "term": "Fall",
+              "courses": [],
+              "credits": 0
+          }
+      ]
   }
 }

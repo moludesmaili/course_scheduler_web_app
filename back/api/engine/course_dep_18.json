@@ -1,0 +1,456 @@
+{
+    "CIS1930": {
+        "dependents": [],
+        "credits": 1,
+        "label": "CIS 1930 Freshman Seminar for Computing",
+        "availability": [
+            "Fall",
+            "Spring",
+            "Summer"
+        ],
+        "difficulty": 1
+    },
+    "COP2510": {
+        "dependents": [
+            "CDA3103",
+            "COP3514"
+        ],
+        "credits": 3,
+        "label": "COP 2510 Programming Concepts",
+        "availability": [
+            "Fall",
+            "Spring"
+        ],
+        "difficulty": 2
+    },
+    "MAC2311": {
+        "dependents": [
+            "MAC2312",
+            "COT3100",
+            "PHY2048/2048L",
+            "COP3514"
+        ],
+        "credits": 4,
+        "label": "MAC 2311 Calculus I",
+        "availability": [
+            "Fall",
+            "Spring",
+            "Summer"
+        ],
+        "difficulty": 4
+    },
+    "ENC1101": {
+        "dependents": [
+            "ENC1102"
+        ],
+        "credits": 3,
+        "label": "ENC 1101 Composition I",
+        "availability": [
+            "Fall",
+            "Spring",
+            "Summer"
+        ],
+        "difficulty": 2
+    },
+    "NatSciElec1": {
+        "dependents": [],
+        "credits": 3,
+        "label": "Gen. Ed. Natural Science Elective",
+        "availability": [
+            "Fall",
+            "Spring",
+            "Summer"
+        ],
+        "difficulty": 3
+    },
+    "COP3514": {
+        "dependents": [
+            "CDA3201/3201L",
+            "CDA4021",
+            "COP4530"
+        ],
+        "credits": 3,
+        "label": "COP 3514 Program Design",
+        "availability": [
+            "Fall",
+            "Spring"
+        ],
+        "difficulty": 4
+    },
+    "MAC2312": {
+        "dependents": [
+            "EGN4450",
+            "EGN2440",
+            "PHY2049/2049L"
+        ],
+        "credits": 4,
+        "label": "MAC 2312 Calculus II",
+        "availability": [
+            "Fall",
+            "Spring",
+            "Summer"
+        ],
+        "difficulty": 4
+    },
+    "ENC1102": {
+        "dependents": [],
+        "credits": 3,
+        "label": "ENC 1102 Composition II",
+        "availability": [
+            "Fall",
+            "Spring",
+            "Summer"
+        ],
+        "difficulty": 2
+    },
+    "PHY2048/2048L": {
+        "dependents": [
+            "PHY2049/2049L",
+            "CDA3103"
+        ],
+        "credits": 4,
+        "label": "PHY 2048/2048L General Physics I - Calculus Based / Lab",
+        "availability": [
+            "Fall",
+            "Spring",
+            "Summer"
+        ],
+        "difficulty": 4
+    },
+    "CDA3103": {
+        "dependents": [
+            "CDA3201/3201L",
+            "CDA4021",
+            "COP4530"
+        ],
+        "credits": 3,
+        "label": "CDA 3103 Computer Organization",
+        "availability": [
+            "Fall",
+            "Spring"
+        ],
+        "difficulty": 4
+    },
+    "COT3100": {
+        "dependents": [
+            "COP4530"
+        ],
+        "credits": 3,
+        "label": "COT 3100 Introduction to Discrete Structures",
+        "availability": [
+            "Fall",
+            "Spring",
+            "Summer"
+        ],
+        "difficulty": 4
+    },
+    "PHY2049/2049L": {
+        "dependents": [],
+        "credits": 4,
+        "label": "PHY 2049/2049L General Physics II - Calculus Based / Lab",
+        "availability": [
+            "Fall",
+            "Spring",
+            "Summer"
+        ],
+        "difficulty": 4
+    },
+    "GenEdHumanities1": {
+        "dependents": [],
+        "credits": 3,
+        "label": "St. Gen. Ed. Humanities (SGEH)",
+        "availability": [
+            "Fall",
+            "Spring",
+            "Summer"
+        ],
+        "difficulty": 2
+    },
+    "COP4530": {
+        "dependents": [
+            "COP4600",
+            "CNT4419",
+            "CEN4020",
+            "COT4400",
+            "TheoryElelc",
+            "Techelec1",
+            "Techelec2",
+            "CIS4910"
+        ],
+        "credits": 3,
+        "label": "COP 4530 Data Structures",
+        "availability": [
+            "Fall",
+            "Spring"
+        ],
+        "difficulty": 4
+    },
+    "CDA3201/3201L": {
+        "dependents": [
+            "CDA4205/4205L",
+            "CDA4203/L",
+            "CDA4213/L",
+            "HardwareElec1",
+            "HardwareElec2"
+        ],
+        "credits": 4,
+        "label": "CDA 3201/3201L Computer Logic and Design/ Lab",
+        "availability": [
+            "Fall",
+            "Spring"
+        ],
+        "difficulty": 4
+    },
+    "CDA4021": {
+        "dependents": [
+            "COP4600"
+        ],
+        "credits": 3,
+        "label": "CDA 4021 Computing Circuits",
+        "availability": [
+            "Fall",
+            "Spring"
+        ],
+        "difficulty": 3
+    },
+    "GeneralElec1": {
+        "dependents": [],
+        "credits": 2,
+        "label": "General Elective",
+        "availability": [
+            "Fall",
+            "Spring",
+            "Summer"
+        ],
+        "difficulty": 2
+    },
+    "EGN2440": {
+        "dependents": [],
+        "credits": 3,
+        "label": "EGN 2440 Probability and Statistics with Calculus",
+        "availability": [
+            "Fall",
+            "Spring",
+            "Summer"
+        ],
+        "difficulty": 3
+    },
+    "GenEdSocialScience1": {
+        "dependents": [],
+        "credits": 3,
+        "label": "POS2041 or AMH2010 or AMH2020",
+        "availability": [
+            "Fall",
+            "Spring",
+            "Summer"
+        ],
+        "difficulty": 2
+    },
+    "NatSciElec2": {
+        "dependents": [],
+        "credits": 3,
+        "label": "Natural Science Elective",
+        "availability": [
+            "Fall",
+            "Spring",
+            "Summer"
+        ],
+        "difficulty": 3
+    },
+    "CDA4205/4205L": {
+        "dependents": [
+            "CDA4203/L",
+            "CDA4213/L"
+        ],
+        "credits": 4,
+        "label": "CDA 4205/4205L Computer Architecture/ Lab",
+        "availability": [
+            "Fall",
+            "Spring"
+        ],
+        "difficulty": 4
+    },
+    "EGN4450": {
+        "dependents": [],
+        "credits": 2,
+        "label": "EGN 4450 Introduction to Linear Systems",
+        "availability": [
+            "Fall",
+            "Spring",
+            "Summer"
+        ],
+        "difficulty": 3
+    },
+    "EGN2615": {
+        "dependents": [],
+        "credits": 3,
+        "label": "EGN 2615 Economical Analysis of Systems",
+        "availability": [
+            "Fall",
+            "Spring",
+            "Summer"
+        ],
+        "difficulty": 3
+    },
+    "Techelec1": {
+        "dependents": [],
+        "credits": 3,
+        "label": "CSE Elective",
+        "availability": [
+            "Fall",
+            "Spring"
+        ],
+        "difficulty": 3
+    },
+    "TheoryElelc": {
+        "dependents": [],
+        "credits": 3,
+        "label": "CSE Theory Elective",
+        "availability": [
+            "Fall",
+            "Spring"
+        ],
+        "difficulty": 3
+    },
+    "COT4400": {
+        "dependents": [],
+        "credits": 3,
+        "label": "COT 4400 Analysis of Algorithms",
+        "availability": [
+            "Fall",
+            "Spring"
+        ],
+        "difficulty": 4
+    },
+    "CDA4203/L": {
+        "dependents": [],
+        "credits": 4,
+        "label": "CDA 4203/4203L Computer System Design/ Lab",
+        "availability": [
+            "Spring"
+        ],
+        "difficulty": 3
+    },
+    "GenEdHumanities2": {
+        "dependents": [],
+        "credits": 3,
+        "label": "Univ. Gen. Ed. Humanities (UGEH)",
+        "availability": [
+            "Fall",
+            "Spring",
+            "Summer"
+        ],
+        "difficulty": 2
+    },
+    "HardwareElec1": {
+        "dependents": [],
+        "credits": 3,
+        "label": "CSE Hardware Elective",
+        "availability": [
+            "Fall",
+            "Spring"
+        ],
+        "difficulty": 3
+    },
+    "Techelec2": {
+        "dependents": [],
+        "credits": 3,
+        "label": "CSE Elective",
+        "availability": [
+            "Fall",
+            "Spring"
+        ],
+        "difficulty": 3
+    },
+    "COP4600": {
+        "dependents": [],
+        "credits": 3,
+        "label": "COP 4600 Operating Systems",
+        "availability": [
+            "Fall",
+            "Spring"
+        ],
+        "difficulty": 4
+    },
+    "CNT4419": {
+        "dependents": [],
+        "credits": 3,
+        "label": "CNT 4419 Secure Coding",
+        "availability": [
+            "Fall",
+            "Spring"
+        ],
+        "difficulty": 4
+    },
+    "CDA4213/L": {
+        "dependents": [],
+        "credits": 4,
+        "label": "CDA 4213/4213L CMOS VLSI Design/ Lab",
+        "availability": [
+            "Fall"
+        ],
+        "difficulty": 3
+    },
+    "HardwareElec2": {
+        "dependents": [],
+        "credits": 3,
+        "label": "CSE Hardware Elective",
+        "availability": [
+            "Fall",
+            "Spring"
+        ],
+        "difficulty": 3
+    },
+    "GeneralElec2": {
+        "dependents": [],
+        "credits": 2,
+        "label": "General Elective",
+        "availability": [
+            "Fall",
+            "Spring",
+            "Summer"
+        ],
+        "difficulty": 2
+    },
+    "CIS4910": {
+        "dependents": [],
+        "credits": 3,
+        "label": "CIS 4910 Comp Science and Engineering Project",
+        "availability": [
+            "Fall",
+            "Spring"
+        ],
+        "difficulty": 3
+    },
+    "CEN4020": {
+        "dependents": [],
+        "credits": 3,
+        "label": "CEN 4020 Software Engineering",
+        "availability": [
+            "Fall",
+            "Spring"
+        ],
+        "difficulty": 4
+    },
+    "CIS4250": {
+        "dependents": [],
+        "credits": 3,
+        "label": "CIS 4250 Ethical Issues and Prof Conduct",
+        "availability": [
+            "Fall",
+            "Spring"
+        ],
+        "difficulty": 3
+    },
+    "GenEdSocialScience2": {
+        "dependents": [],
+        "credits": 3,
+        "label": "Univ. Gen. Ed. Social Science (UGES)",
+        "availability": [
+            "Fall",
+            "Spring",
+            "Summer"
+        ],
+        "difficulty": 2
+    }
+}

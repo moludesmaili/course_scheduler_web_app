@@ -1,0 +1,485 @@
+{
+    "CIS1930": {
+        "dependents": [],
+        "credits": 1,
+        "label": "CIS 1930 Freshman Seminar for Computing",
+        "availability": [
+            "Fall",
+            "Spring",
+            "Summer"
+        ],
+        "difficulty": 1
+    },
+    "COP2510": {
+        "dependents": [
+            "COP3514",
+            "CDA3103"
+        ],
+        "credits": 3,
+        "label": "COP 2510 Programming Concepts",
+        "availability": [
+            "Fall",
+            "Spring"
+        ],
+        "difficulty": 4
+    },
+    "MAC2311": {
+        "dependents": [
+            "MAC2312",
+            "COT3100",
+            "PHY2048/2048L"
+        ],
+        "credits": 4,
+        "label": "MAC 2311 Calculus I",
+        "availability": [
+            "Fall",
+            "Spring",
+            "Summer"
+        ],
+        "difficulty": 4
+    },
+    "ENC1101": {
+        "dependents": [
+            "ENC1102"
+        ],
+        "credits": 3,
+        "label": "ENC 1101 Composition I",
+        "availability": [
+            "Fall",
+            "Spring",
+            "Summer"
+        ],
+        "difficulty": 2
+    },
+    "CAI1000": {
+        "dependents": [
+            "CAI2001"
+        ],
+        "credits": 3,
+        "label": "CAI 1000 AI Fundamentals",
+        "availability": [
+            "Fall",
+            "Spring"
+        ],
+        "difficulty": 3
+    },
+    "COP3514": {
+        "dependents": [
+            "COP4530",
+            "CAI4002"
+        ],
+        "credits": 3,
+        "label": "COP 3514 Program Design",
+        "availability": [
+            "Fall",
+            "Spring"
+        ],
+        "difficulty": 4
+    },
+    "MAC2312": {
+        "dependents": [
+            "EGN2440",
+            "EGN4450"
+        ],
+        "credits": 4,
+        "label": "MAC 2312 Calculus II",
+        "availability": [
+            "Fall",
+            "Spring",
+            "Summer"
+        ],
+        "difficulty": 4
+    },
+    "PHY2048/2048L": {
+        "dependents": [
+            "CDA3103"
+        ],
+        "credits": 4,
+        "label": "PHY 2048/2048L General Physics I with Lab",
+        "availability": [
+            "Fall",
+            "Spring",
+            "Summer"
+        ],
+        "difficulty": 4
+    },
+    "ENC1102": {
+        "dependents": [],
+        "credits": 3,
+        "label": "ENC 1102 Composition II",
+        "availability": [
+            "Fall",
+            "Spring",
+            "Summer"
+        ],
+        "difficulty": 2
+    },
+    "COT3100": {
+        "dependents": [
+            "COP4530"
+        ],
+        "credits": 3,
+        "label": "COT 3100 Introduction to Discrete Structures",
+        "availability": [
+            "Fall",
+            "Spring",
+            "Summer"
+        ],
+        "difficulty": 4
+    },
+    "CDA3103": {
+        "dependents": [
+            "COP4530",
+            "CAI4624"
+        ],
+        "credits": 3,
+        "label": "CDA 3103 Computer Organization",
+        "availability": [
+            "Fall",
+            "Spring"
+        ],
+        "difficulty": 4
+    },
+    "NatSciElec3": {
+        "dependents": [],
+        "credits": 3,
+        "label": "USF Gen Ed Natural Science (UGEN)",
+        "availability": [
+            "Fall",
+            "Spring",
+            "Summer"
+        ],
+        "difficulty": 3
+    },
+    "CAI2001": {
+        "dependents": [
+            "CAI4002"
+        ],
+        "credits": 3,
+        "label": "CAI 2001 AI Applications",
+        "availability": [
+            "Fall",
+            "Spring"
+        ],
+        "difficulty": 4
+    },
+    "COP4530": {
+        "dependents": [
+            "COT4400",
+            "CAI4624",
+            "CAP4641",
+            "CAI4841",
+            "AIElec1",
+            "AIElec2",
+            "AIElec3",
+            "AIElec4",
+            "AIElec5",
+            "AIElec6"
+        ],
+        "credits": 3,
+        "label": "COP 4530 Data Structures",
+        "availability": [
+            "Fall",
+            "Spring"
+        ],
+        "difficulty": 4
+    },
+    "CAI4002": {
+        "dependents": [
+            "CAI4105",
+            "CAI4203",
+            "AIElec1",
+            "AIElec2",
+            "AIElec3",
+            "AIElec4",
+            "AIElec5",
+            "AIElec6"
+        ],
+        "credits": 3,
+        "label": "CAI 4002 Introduction to Artificial Intelligence",
+        "availability": [
+            "Fall",
+            "Spring"
+        ],
+        "difficulty": 4
+    },
+    "EGN4450": {
+        "dependents": [
+            "CAI4105"
+        ],
+        "credits": 2,
+        "label": "EGN 4450 Introduction to Linear Systems",
+        "availability": [
+            "Fall",
+            "Spring",
+            "Summer"
+        ],
+        "difficulty": 3
+    },
+    "GeneralElec1": {
+        "dependents": [],
+        "credits": 3,
+        "label": "General Elective",
+        "availability": [
+            "Fall",
+            "Spring",
+            "Summer"
+        ],
+        "difficulty": 2
+    },
+    "GenEdHumanities1": {
+        "dependents": [],
+        "credits": 3,
+        "label": "State Core Gen Ed Humanities Elective (SGEH)",
+        "availability": [
+            "Fall",
+            "Spring",
+            "Summer"
+        ],
+        "difficulty": 2
+    },
+    "EGN2440": {
+        "dependents": [],
+        "credits": 3,
+        "label": "EGN 2440 or STA 2023",
+        "availability": [
+            "Fall",
+            "Spring",
+            "Summer"
+        ],
+        "difficulty": 4
+    },
+    "STA2023": {
+        "dependents": [],
+        "credits": 3,
+        "label": "STA 2023 Introductory Statistics I",
+        "availability": [
+            "Fall",
+            "Spring",
+            "Summer"
+        ],
+        "difficulty": 4
+    },
+    "GenEdElective1": {
+        "dependents": [],
+        "credits": 3,
+        "label": "USF Gen Ed Elective (UGEC/UGEH/UGEM/UGEN/UGES)",
+        "availability": [
+            "Fall",
+            "Spring",
+            "Summer"
+        ],
+        "difficulty": 2
+    },
+    "GeneralElec2": {
+        "dependents": [],
+        "credits": 3,
+        "label": "General Elective",
+        "availability": [
+            "Fall",
+            "Spring",
+            "Summer"
+        ],
+        "difficulty": 2
+    },
+    "CAI4105": {
+        "dependents": [
+            "CAI4203"
+        ],
+        "credits": 3,
+        "label": "CAI 4105 Introduction to Machine Learning",
+        "availability": [
+            "Fall",
+            "Spring"
+        ],
+        "difficulty": 4
+    },
+    "PSY2012": {
+        "dependents": [],
+        "credits": 3,
+        "label": "PSY 2012 Introduction to Psychological Science",
+        "availability": [
+            "Fall",
+            "Spring",
+            "Summer"
+        ],
+        "difficulty": 3
+    },
+    "GenEdHumanities2": {
+        "dependents": [],
+        "credits": 3,
+        "label": "USF Gen Ed Humanities Elective (UGEH)",
+        "availability": [
+            "Fall",
+            "Spring",
+            "Summer"
+        ],
+        "difficulty": 2
+    },
+    "AIElec1": {
+        "dependents": [],
+        "credits": 3,
+        "label": "AI Elective",
+        "availability": [
+            "Fall",
+            "Spring"
+        ],
+        "difficulty": 3
+    },
+    "CAI4203": {
+        "dependents": [
+            "CAI4024"
+        ],
+        "credits": 3,
+        "label": "CAI 4203 Deep Learning",
+        "availability": [
+            "Fall",
+            "Spring"
+        ],
+        "difficulty": 4
+    },
+    "COT4400": {
+        "dependents": [],
+        "credits": 3,
+        "label": "COT 4400 Analysis of Algorithms",
+        "availability": [
+            "Fall",
+            "Spring"
+        ],
+        "difficulty": 4
+    },
+    "GenEdSocialScience2": {
+        "dependents": [],
+        "credits": 3,
+        "label": "USF Gen Ed Social Science Elective (UGES)",
+        "availability": [
+            "Fall",
+            "Spring",
+            "Summer"
+        ],
+        "difficulty": 2
+    },
+    "AIElec2": {
+        "dependents": [],
+        "credits": 3,
+        "label": "AI Elective",
+        "availability": [
+            "Fall",
+            "Spring"
+        ],
+        "difficulty": 3
+    },
+    "GeneralElec3": {
+        "dependents": [],
+        "credits": 3,
+        "label": "General Elective",
+        "availability": [
+            "Fall",
+            "Spring",
+            "Summer"
+        ],
+        "difficulty": 2
+    },
+    "CAP4641": {
+        "dependents": [],
+        "credits": 3,
+        "label": "CAP 4641 Natural Language Processing",
+        "availability": [
+            "Fall",
+            "Spring"
+        ],
+        "difficulty": 4
+    },
+    "CAI4841": {
+        "dependents": [],
+        "credits": 3,
+        "label": "CAI 4841 Computer Vision",
+        "availability": [
+            "Fall",
+            "Spring"
+        ],
+        "difficulty": 4
+    },
+    "AIElec3": {
+        "dependents": [],
+        "credits": 3,
+        "label": "AI Elective",
+        "availability": [
+            "Fall",
+            "Spring"
+        ],
+        "difficulty": 3
+    },
+    "AIElec4": {
+        "dependents": [],
+        "credits": 3,
+        "label": "AI Elective",
+        "availability": [
+            "Fall",
+            "Spring"
+        ],
+        "difficulty": 3
+    },
+    "GeneralElec4": {
+        "dependents": [],
+        "credits": 3,
+        "label": "General Elective",
+        "availability": [
+            "Fall",
+            "Spring",
+            "Summer"
+        ],
+        "difficulty": 2
+    },
+    "CAI4024": {
+        "dependents": [],
+        "credits": 3,
+        "label": "CAI 4024 Ethical Issues in AI",
+        "availability": [
+            "Fall",
+            "Spring"
+        ],
+        "difficulty": 3
+    },
+    "CAI4624": {
+        "dependents": [],
+        "credits": 3,
+        "label": "CAI 4624 AI Systems Architecture and Infrastructure",
+        "availability": [
+            "Fall",
+            "Spring"
+        ],
+        "difficulty": 4
+    },
+    "AIElec5": {
+        "dependents": [],
+        "credits": 3,
+        "label": "AI Elective",
+        "availability": [
+            "Fall",
+            "Spring"
+        ],
+        "difficulty": 3
+    },
+    "AIElec6": {
+        "dependents": [],
+        "credits": 3,
+        "label": "AI Elective",
+        "availability": [
+            "Fall",
+            "Spring"
+        ],
+        "difficulty": 3
+    },
+    "GeneralElec5": {
+        "dependents": [],
+        "credits": 3,
+        "label": "General Elective",
+        "availability": [
+            "Fall",
+            "Spring",
+            "Summer"
+        ],
+        "difficulty": 2
+    }
+}
